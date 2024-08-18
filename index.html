@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Today's Weather</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Today's Weather</h2>
+    <div class="image">
+      <img src="images/weather-icons.png" alt="weather icons">
+    </div>
+    <div class="city-name-container">
+      <label>Please select your city</label>
+      <select class="city-name">
+        <option value="yangon">Yangon</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="seoul">Seoul</option>
+        <option value="madrid">Madrid</option>
+        <option value="dubai">Dubai</option>
+      </select>
+    </div>
+    <div class="language-container">
+      <label>Please select your language</label>
+      <select class="language">
+        <option value="EN">English</option>
+        <option value="JA">Japanese</option>
+        <option value="KR">Korean</option>
+        <option value="ES">Spanish</option>
+        <option value="AR">Arabic</option>
+      </select>
+    </div>
+    <div class="weather-info">
+      <!-- <img class="icon" src="" alt="weather icon"> -->
+      <div class="main">Clouds</div>
+      <div class="description">overcast clouds</div>
+    </div>
+  </div>
+  <script src="/javascript/jquery.js"></script>
+  <script src="/javascript/script.js"></script>
+</body>
+</html>
